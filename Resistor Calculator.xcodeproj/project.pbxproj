@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14539AAB1AE47F7200CFE500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14539AAA1AE47F7200CFE500 /* main.m */; };
+		14539AAE1AE47F7200CFE500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14539AAD1AE47F7200CFE500 /* AppDelegate.m */; };
+		14539AB11AE47F7200CFE500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14539AB01AE47F7200CFE500 /* ViewController.m */; };
+		14539AB41AE47F7200CFE500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14539AB21AE47F7200CFE500 /* Main.storyboard */; };
+		14539AB61AE47F7200CFE500 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14539AB51AE47F7200CFE500 /* Images.xcassets */; };
+		14539AB91AE47F7200CFE500 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14539AB71AE47F7200CFE500 /* LaunchScreen.xib */; };
+		14539AC51AE47F7300CFE500 /* Resistor_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14539AC41AE47F7300CFE500 /* Resistor_CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14539ABF1AE47F7300CFE500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14539A9D1AE47F7200CFE500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14539AA41AE47F7200CFE500;
+			remoteInfo = "Resistor Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14539AA51AE47F7200CFE500 /* Resistor Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resistor Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14539AA91AE47F7200CFE500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14539AAA1AE47F7200CFE500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14539AAC1AE47F7200CFE500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14539AAD1AE47F7200CFE500 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14539AAF1AE47F7200CFE500 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14539AB01AE47F7200CFE500 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14539AB31AE47F7200CFE500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14539AB51AE47F7200CFE500 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14539AB81AE47F7200CFE500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		14539ABE1AE47F7300CFE500 /* Resistor CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resistor CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14539AC31AE47F7300CFE500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14539AC41AE47F7300CFE500 /* Resistor_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Resistor_CalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14539AA21AE47F7200CFE500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14539ABB1AE47F7300CFE500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14539A9C1AE47F7200CFE500 = {
+			isa = PBXGroup;
+			children = (
+				14539AA71AE47F7200CFE500 /* Resistor Calculator */,
+				14539AC11AE47F7300CFE500 /* Resistor CalculatorTests */,
+				14539AA61AE47F7200CFE500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14539AA61AE47F7200CFE500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14539AA51AE47F7200CFE500 /* Resistor Calculator.app */,
+				14539ABE1AE47F7300CFE500 /* Resistor CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14539AA71AE47F7200CFE500 /* Resistor Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				14539AAC1AE47F7200CFE500 /* AppDelegate.h */,
+				14539AAD1AE47F7200CFE500 /* AppDelegate.m */,
+				14539AAF1AE47F7200CFE500 /* ViewController.h */,
+				14539AB01AE47F7200CFE500 /* ViewController.m */,
+				14539AB21AE47F7200CFE500 /* Main.storyboard */,
+				14539AB51AE47F7200CFE500 /* Images.xcassets */,
+				14539AB71AE47F7200CFE500 /* LaunchScreen.xib */,
+				14539AA81AE47F7200CFE500 /* Supporting Files */,
+			);
+			path = "Resistor Calculator";
+			sourceTree = "<group>";
+		};
+		14539AA81AE47F7200CFE500 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14539AA91AE47F7200CFE500 /* Info.plist */,
+				14539AAA1AE47F7200CFE500 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14539AC11AE47F7300CFE500 /* Resistor CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				14539AC41AE47F7300CFE500 /* Resistor_CalculatorTests.m */,
+				14539AC21AE47F7300CFE500 /* Supporting Files */,
+			);
+			path = "Resistor CalculatorTests";
+			sourceTree = "<group>";
+		};
+		14539AC21AE47F7300CFE500 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14539AC31AE47F7300CFE500 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14539AA41AE47F7200CFE500 /* Resistor Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14539AC81AE47F7300CFE500 /* Build configuration list for PBXNativeTarget "Resistor Calculator" */;
+			buildPhases = (
+				14539AA11AE47F7200CFE500 /* Sources */,
+				14539AA21AE47F7200CFE500 /* Frameworks */,
+				14539AA31AE47F7200CFE500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Resistor Calculator";
+			productName = "Resistor Calculator";
+			productReference = 14539AA51AE47F7200CFE500 /* Resistor Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14539ABD1AE47F7300CFE500 /* Resistor CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14539ACB1AE47F7300CFE500 /* Build configuration list for PBXNativeTarget "Resistor CalculatorTests" */;
+			buildPhases = (
+				14539ABA1AE47F7300CFE500 /* Sources */,
+				14539ABB1AE47F7300CFE500 /* Frameworks */,
+				14539ABC1AE47F7300CFE500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14539AC01AE47F7300CFE500 /* PBXTargetDependency */,
+			);
+			name = "Resistor CalculatorTests";
+			productName = "Resistor CalculatorTests";
+			productReference = 14539ABE1AE47F7300CFE500 /* Resistor CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14539A9D1AE47F7200CFE500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Venkatesh Appea";
+				TargetAttributes = {
+					14539AA41AE47F7200CFE500 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					14539ABD1AE47F7300CFE500 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 14539AA41AE47F7200CFE500;
+					};
+				};
+			};
+			buildConfigurationList = 14539AA01AE47F7200CFE500 /* Build configuration list for PBXProject "Resistor Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14539A9C1AE47F7200CFE500;
+			productRefGroup = 14539AA61AE47F7200CFE500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14539AA41AE47F7200CFE500 /* Resistor Calculator */,
+				14539ABD1AE47F7300CFE500 /* Resistor CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14539AA31AE47F7200CFE500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14539AB41AE47F7200CFE500 /* Main.storyboard in Resources */,
+				14539AB91AE47F7200CFE500 /* LaunchScreen.xib in Resources */,
+				14539AB61AE47F7200CFE500 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14539ABC1AE47F7300CFE500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14539AA11AE47F7200CFE500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14539AB11AE47F7200CFE500 /* ViewController.m in Sources */,
+				14539AAE1AE47F7200CFE500 /* AppDelegate.m in Sources */,
+				14539AAB1AE47F7200CFE500 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14539ABA1AE47F7300CFE500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14539AC51AE47F7300CFE500 /* Resistor_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14539AC01AE47F7300CFE500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14539AA41AE47F7200CFE500 /* Resistor Calculator */;
+			targetProxy = 14539ABF1AE47F7300CFE500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14539AB21AE47F7200CFE500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14539AB31AE47F7200CFE500 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14539AB71AE47F7200CFE500 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14539AB81AE47F7200CFE500 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14539AC61AE47F7300CFE500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14539AC71AE47F7300CFE500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14539AC91AE47F7300CFE500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Resistor Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14539ACA1AE47F7300CFE500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Resistor Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14539ACC1AE47F7300CFE500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Resistor CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resistor Calculator.app/Resistor Calculator";
+			};
+			name = Debug;
+		};
+		14539ACD1AE47F7300CFE500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Resistor CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resistor Calculator.app/Resistor Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14539AA01AE47F7200CFE500 /* Build configuration list for PBXProject "Resistor Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14539AC61AE47F7300CFE500 /* Debug */,
+				14539AC71AE47F7300CFE500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14539AC81AE47F7300CFE500 /* Build configuration list for PBXNativeTarget "Resistor Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14539AC91AE47F7300CFE500 /* Debug */,
+				14539ACA1AE47F7300CFE500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14539ACB1AE47F7300CFE500 /* Build configuration list for PBXNativeTarget "Resistor CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14539ACC1AE47F7300CFE500 /* Debug */,
+				14539ACD1AE47F7300CFE500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14539A9D1AE47F7200CFE500 /* Project object */;
+}

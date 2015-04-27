@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		14539AAB1AE47F7200CFE500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14539AAA1AE47F7200CFE500 /* main.m */; };
 		14539AAE1AE47F7200CFE500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14539AAD1AE47F7200CFE500 /* AppDelegate.m */; };
-		14539AB11AE47F7200CFE500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14539AB01AE47F7200CFE500 /* ViewController.m */; };
 		14539AB41AE47F7200CFE500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14539AB21AE47F7200CFE500 /* Main.storyboard */; };
 		14539AB61AE47F7200CFE500 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14539AB51AE47F7200CFE500 /* Images.xcassets */; };
 		14539AB91AE47F7200CFE500 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14539AB71AE47F7200CFE500 /* LaunchScreen.xib */; };
 		14539AC51AE47F7300CFE500 /* Resistor_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14539AC41AE47F7300CFE500 /* Resistor_CalculatorTests.m */; };
+		146E3F991AE48FA800BEED6C /* ResistanceValViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E3F981AE48FA800BEED6C /* ResistanceValViewController.m */; };
+		146E3F9C1AE4926300BEED6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E3F9B1AE4926300BEED6C /* ViewController.m */; };
+		146E3F9F1AE493CB00BEED6C /* FinalResistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E3F9E1AE493CB00BEED6C /* FinalResistanceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		14539AAA1AE47F7200CFE500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14539AAC1AE47F7200CFE500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14539AAD1AE47F7200CFE500 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		14539AAF1AE47F7200CFE500 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14539AB01AE47F7200CFE500 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14539AB31AE47F7200CFE500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14539AB51AE47F7200CFE500 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		14539AB81AE47F7200CFE500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		14539ABE1AE47F7300CFE500 /* Resistor CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resistor CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14539AC31AE47F7300CFE500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14539AC41AE47F7300CFE500 /* Resistor_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Resistor_CalculatorTests.m; sourceTree = "<group>"; };
+		146E3F971AE48FA800BEED6C /* ResistanceValViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResistanceValViewController.h; path = ../ResistanceValViewController.h; sourceTree = "<group>"; };
+		146E3F981AE48FA800BEED6C /* ResistanceValViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResistanceValViewController.m; path = ../ResistanceValViewController.m; sourceTree = "<group>"; };
+		146E3F9A1AE4926300BEED6C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../../.Trash/ViewController.h; sourceTree = "<group>"; };
+		146E3F9B1AE4926300BEED6C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../../.Trash/ViewController.m; sourceTree = "<group>"; };
+		146E3F9D1AE493CB00BEED6C /* FinalResistanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalResistanceViewController.h; sourceTree = "<group>"; };
+		146E3F9E1AE493CB00BEED6C /* FinalResistanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalResistanceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,15 @@
 		14539AA71AE47F7200CFE500 /* Resistor Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				146E3F971AE48FA800BEED6C /* ResistanceValViewController.h */,
+				146E3F981AE48FA800BEED6C /* ResistanceValViewController.m */,
 				14539AAC1AE47F7200CFE500 /* AppDelegate.h */,
 				14539AAD1AE47F7200CFE500 /* AppDelegate.m */,
-				14539AAF1AE47F7200CFE500 /* ViewController.h */,
-				14539AB01AE47F7200CFE500 /* ViewController.m */,
+				146E3F9A1AE4926300BEED6C /* ViewController.h */,
+				146E3F9B1AE4926300BEED6C /* ViewController.m */,
 				14539AB21AE47F7200CFE500 /* Main.storyboard */,
+				146E3F9D1AE493CB00BEED6C /* FinalResistanceViewController.h */,
+				146E3F9E1AE493CB00BEED6C /* FinalResistanceViewController.m */,
 				14539AB51AE47F7200CFE500 /* Images.xcassets */,
 				14539AB71AE47F7200CFE500 /* LaunchScreen.xib */,
 				14539AA81AE47F7200CFE500 /* Supporting Files */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14539AB11AE47F7200CFE500 /* ViewController.m in Sources */,
+				146E3F9F1AE493CB00BEED6C /* FinalResistanceViewController.m in Sources */,
 				14539AAE1AE47F7200CFE500 /* AppDelegate.m in Sources */,
+				146E3F991AE48FA800BEED6C /* ResistanceValViewController.m in Sources */,
+				146E3F9C1AE4926300BEED6C /* ViewController.m in Sources */,
 				14539AAB1AE47F7200CFE500 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +430,7 @@
 				14539ACA1AE47F7300CFE500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14539ACB1AE47F7300CFE500 /* Build configuration list for PBXNativeTarget "Resistor CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				14539ACD1AE47F7300CFE500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

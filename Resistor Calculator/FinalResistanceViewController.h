@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FinalResistanceViewController.h
 //  Resistor Calculator
 //
 //  Created by Venkatesh Appea on 2015-04-19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FinalResistanceViewController : UIViewController
 
 @end
-

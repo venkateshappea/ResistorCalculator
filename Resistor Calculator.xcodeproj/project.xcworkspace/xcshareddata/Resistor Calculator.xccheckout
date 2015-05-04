@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CEDC53E1-0627-4A1D-8BD6-283B0E040082</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Resistor Calculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E466B0F8C467E13A2F06192C7DB22018D0E10EC0</key>
+		<string>https://github.com/venkateshappea/ResistorCalculator</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Resistor Calculator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E466B0F8C467E13A2F06192C7DB22018D0E10EC0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/venkateshappea/ResistorCalculator</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E466B0F8C467E13A2F06192C7DB22018D0E10EC0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E466B0F8C467E13A2F06192C7DB22018D0E10EC0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Resistor%20Calculator</string>
+		</dict>
+	</array>
+</dict>
+</plist>

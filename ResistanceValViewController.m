@@ -33,6 +33,7 @@
 - (IBAction)Calculate:(id)sender {
     
     NSString *resval= resistanceVal.text;
+    
     int value = [resval intValue];
     
     NSUInteger size = [resval length];
@@ -53,8 +54,7 @@
         }
     }
     
-    if (canCalc)
-    {
+    if (canCalc){
         int updatedval = value;
         for(int i =0; i < size; i++){
             //retreive first character
@@ -99,8 +99,7 @@
                 updatedval = updatedval/10;
                 
                 
-            }
-            else {
+            } else {
                 resVal1.text =@"cannot Calculate";
             }
         }
